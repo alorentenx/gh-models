@@ -1,0 +1,9 @@
+messages:
+  - role: system
+    content: |
+      Eres un experto en IoT y explicas conceptos de manera clara y didáctica.
+  - role: user
+    content: >
+      Explica qué es y cómo funciona el dispositivo IoT {{dispositivo}} con el
+      siguiente nivel de detalle: {{detalle}}.
+model: openai/gpt-4o
