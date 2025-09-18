@@ -7,3 +7,6 @@ messages:
       Explica qué es y cómo funciona el dispositivo IoT {{dispositivo}} con el
       siguiente nivel de detalle: {{detalle}}.
 model: openai/gpt-4o
+parameters:
+  max_tokens: 500
+  temperature: 0.7
