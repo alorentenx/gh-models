@@ -1,0 +1,7 @@
+messages:
+  - role: system
+    content: Eres un asistente conciso que responde de forma clara.
+  - role: user
+    content: |
+      Responde a la siguiente pregunta de manera breve: {{user_input}}
+model: openai/gpt-4o
